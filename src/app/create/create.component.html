@@ -1,0 +1,12 @@
+<h1>New Task Create</h1>
+<form>
+    <label>Date:</label><br/>
+    <input type="text" name="date" [(ngModel)]="task.date"><br/>
+    <label>Title:</label><br/>
+    <input type="text" name="title" [(ngModel)]="task.title"><br/>
+    <label>Description:</label><br/>
+    <input type="text" name="description" [(ngModel)]="task.descrip"><br/>
+    <label>Priority:</label><br/>
+    <input type="text" name="priority" [(ngModel)]="task.priority"><br/>
+    <button (click)="createTask()">Submit</button>
+</form>

@@ -1,0 +1,10 @@
+<h1 id="todoAppName">{{appName}}</h1>
+<div class="row">
+    <div class="col-md-6 col-lg-6">
+        <button class="btn btn-success" (click)="goToCreate()">Create Tasks</button>
+    </div>
+    <div class="col-md-6 col-lg-6">
+        <button class="btn btn-danger" (click)="goToShow()">Show Tasks</button>
+    </div>
+</div>
+<router-outlet></router-outlet>
